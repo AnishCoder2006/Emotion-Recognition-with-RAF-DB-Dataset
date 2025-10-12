@@ -5,10 +5,9 @@ A real-time emotion recognition system that uses deep learning to classify facia
 ## 🎯 Features
 
 - **Real-time Emotion Detection**: Webcam-based emotion recognition
-- **Deep Learning Models**: Custom CNN architecture with optional transfer learning
+- **Deep Learning Models**: Custom CNN architecture 
 - **Data Analysis**: Comprehensive class distribution visualization
 - **Data Augmentation**: Improved model generalization with image augmentation
-- **Class Balancing**: Automatic class weight computation for imbalanced datasets
 - **Model Evaluation**: Detailed performance metrics and visualization
 
 ## 🚀 Quick Start
