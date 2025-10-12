@@ -1,30 +1,27 @@
-Emotion Recognition with RAF-DB Dataset
+# Emotion Recognition with RAF-DB Dataset
+
 A real-time emotion recognition system that uses deep learning to classify facial expressions into 7 emotion categories: Surprise, Fear, Disgust, Happy, Sad, Angry, and Neutral.
 
-🎯 Features
-Real-time Emotion Detection: Webcam-based emotion recognition
+## 🎯 Features
 
-Deep Learning Models: Custom CNN architecture with optional transfer learning
+- **Real-time Emotion Detection**: Webcam-based emotion recognition
+- **Deep Learning Models**: Custom CNN architecture with optional transfer learning
+- **Data Analysis**: Comprehensive class distribution visualization
+- **Data Augmentation**: Improved model generalization with image augmentation
+- **Class Balancing**: Automatic class weight computation for imbalanced datasets
+- **Model Evaluation**: Detailed performance metrics and visualization
 
-Data Analysis: Comprehensive class distribution visualization
+## 🚀 Quick Start
 
-Data Augmentation: Improved model generalization with image augmentation
+### Prerequisites
 
-Class Balancing: Automatic class weight computation for imbalanced datasets
+- Python 3.7+
+- Webcam for real-time demo
+- Kaggle account (for dataset download)
 
-Model Evaluation: Detailed performance metrics and visualization
+### Installation
 
-🚀 Quick Start
-Prerequisites
-Python 3.7+
-
-Webcam for real-time demo
-
-Kaggle account (for dataset download)
-
-Installation
-Clone the repository
-
+1. **Clone the repository**
 bash
 git clone <repository-url>
 cd emotion-recognition
@@ -34,7 +31,7 @@ bash
 pip install -r requirements.txt
 Set up Kaggle credentials (for automatic dataset download)
 
-Create a Kaggle account at https://www.kaggle.com/
+Create a Kaggle account at kaggle.com
 
 Go to your account settings and create API token
 
@@ -78,3 +75,12 @@ Softmax output for 7 emotion classes
 Training: Adam optimizer with learning rate scheduling
 
 Regularization: Early stopping, data augmentation, class weights
+
+📊 Dataset
+The model is trained on the RAF-DB (Real-world Affective Faces Database) dataset:
+
+7 emotion categories: Surprise, Fear, Disgust, Happy, Sad, Angry, Neutral
+
+~15,000 images: Real-world facial expressions with variations
+
+Automatic download: Handled via Kaggle API
