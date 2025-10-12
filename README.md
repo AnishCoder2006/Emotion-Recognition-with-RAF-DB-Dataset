@@ -30,7 +30,16 @@ Install dependencies
 bash
 pip install -r requirements.txt
 Set up Kaggle credentials (for automatic dataset download)
+🖼️ Sample Output
+The model provides real-time emotion detection with confidence scores:
 
+Example 1: Angry Emotion
+https://Emotion%2520Detection3.png
+Detection showing "Angry" emotion with 0.40 confidence
+
+Example 2: Happy Emotion
+https://Emotion%2520Detection.png
+Detection showing "Happy" emotion with 0.24 confidence and "Sad" with 0.29 confidence
 
 
 
