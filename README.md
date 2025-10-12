@@ -33,13 +33,17 @@ Set up Kaggle credentials (for automatic dataset download)
 🖼️ Sample Output
 The model provides real-time emotion detection with confidence scores:
 
-Example 1: Angry Emotion
-https://Emotion%2520Detection3.png
-Detection showing "Angry" emotion with 0.40 confidence
+## 🖼️ Sample Output
 
-Example 2: Happy Emotion
-https://Emotion%2520Detection.png
-Detection showing "Happy" emotion with 0.24 confidence and "Sad" with 0.29 confidence
+The model provides real-time emotion detection with confidence scores:
+
+### Example 1: Angry Emotion
+![Angry Emotion Detection](Emotion%20Detection3.png)
+*Detection showing "Angry" emotion with 0.40 confidence*
+
+### Example 2: Happy Emotion  
+![Happy Emotion Detection](Emotion%20Detection.png)
+*Detection showing "Happy" emotion with 0.24 confidence and "Sad" with 0.29 confidence*
 
 
 
