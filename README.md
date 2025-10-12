@@ -17,6 +17,14 @@ A real-time emotion recognition system that uses deep learning to classify facia
 - Python 3.7+
 - Webcam for real-time demo
 - Kaggle account (for dataset download)
+- ## 📈 Performance Metrics
+
+- **Validation Accuracy**: 67.21%
+- **Number of Classes**: 7
+- **Dataset**: RAF-DB (Real-world challenging conditions)
+- **Training Time**: 30-40 minutes on CPU(If you are using GPUs then it is 5 to 10 times faster)
+
+
 
 ### Installation
 
