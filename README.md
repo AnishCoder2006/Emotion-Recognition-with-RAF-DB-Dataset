@@ -31,56 +31,8 @@ bash
 pip install -r requirements.txt
 Set up Kaggle credentials (for automatic dataset download)
 
-Create a Kaggle account at kaggle.com
 
-Go to your account settings and create API token
 
-Place kaggle.json in ~/.kaggle/ directory
 
-Usage
-Run the complete pipeline:
 
-bash
-python emotion_classifier.py
-The script will automatically:
 
-Download the RAF-DB dataset
-
-Build and train the CNN model
-
-Launch real-time webcam emotion detection
-
-📁 Project Structure
-text
-emotion-recognition/
-├── emotion_classifier.py    # Main implementation file
-├── requirements.txt         # Python dependencies
-├── README.md               # Project documentation
-└── models/                 # Saved models (generated after training)
-🧠 Model Architecture
-The system uses a custom CNN architecture with:
-
-Input: 48×48 grayscale facial images
-
-Architecture:
-
-4 convolutional blocks with BatchNorm and Dropout
-
-Global Average Pooling
-
-Dense layers with regularization
-
-Softmax output for 7 emotion classes
-
-Training: Adam optimizer with learning rate scheduling
-
-Regularization: Early stopping, data augmentation, class weights
-
-📊 Dataset
-The model is trained on the RAF-DB (Real-world Affective Faces Database) dataset:
-
-7 emotion categories: Surprise, Fear, Disgust, Happy, Sad, Angry, Neutral
-
-~15,000 images: Real-world facial expressions with variations
-
-Automatic download: Handled via Kaggle API
